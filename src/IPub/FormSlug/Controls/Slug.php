@@ -122,7 +122,7 @@ class Slug extends Forms\Controls\TextInput
 		];
 
 		return FormSlug\Utils\Html::el()
-			->add($this->template);
+			->addHtml($this->template);
 	}
 
 	/**
